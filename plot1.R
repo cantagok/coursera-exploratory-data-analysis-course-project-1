@@ -10,4 +10,4 @@ electricData<-electricData[electricData$Date=="1/2/2007"|electricData$Date=="2/2
 electricData$Global_active_power<-as.numeric(levels(electricData$Global_active_power))[electricData$Global_active_power]
 hist(electricData$Global_active_power, col="red", main = "Global Active Power", xlab="Global Active Power (kilowatts)")
 
-dev.off()
+

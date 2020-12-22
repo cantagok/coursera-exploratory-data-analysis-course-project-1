@@ -14,4 +14,4 @@ Datetime<-strptime(paste(electricData$Date, electricData$Time, paste=" "), "%d/%
 #Line graph of Global active power throughout time
 plot(Datetime, electricData$Global_active_power, type="l", ylab = "Global Active Power (kilowatts)", xlab = "")
 
-dev.off()
+
